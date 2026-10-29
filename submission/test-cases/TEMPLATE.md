@@ -1,6 +1,6 @@
-# Test Cases: [Your First Name Last Initial]
+# Test Cases: [moises cortes]
 
-**Team number:** [XX]
+**Team number:** [5]
 
 <!--
 HOW TO USE THIS FILE
@@ -15,30 +15,40 @@ HOW TO USE THIS FILE
 ---
 
 **Test ID:**
+M1
 **Written by:**
+Moises Cortes
 **Title:**
+Allowed to vote for your own costume
 **Traces to:**
+app.js
 **Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
+Acceptance
 **Preconditions:**
+User is not allowed to vote for their own costume
 **Test data:**
-
+MyAccount pass 1234 mycostume: pp pp
 **Steps:**
-1.
-2.
-3.
+1.login
+2.navigate to my costume in the 
+3.vote for my own costume
 
 **Expected result:**
 **Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Status:** (Pass / Fail) Fail
+**Severity:** (Critical / Major / Minor, Fail only) Major
+**V or V:** (Verification / Validation, Fail only) Fail Only
 
 ---
 
 **Test ID:**
+M23
 **Written by:**
+Moises Cortes
 **Title:**
+Costumes done as creative are not accepted
 **Traces to:**
+app.js
 **Test type:**
 **Preconditions:**
 **Test data:**
